@@ -1,0 +1,40 @@
+<mxfile host="65bd71144e">
+    <diagram id="ysJrzm6jVBO5Fv8kPbtV" name="Page-1">
+        <mxGraphModel dx="687" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="yIe1rNJEtNqg8u7YunD5-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Diagrama de Casos de Uso: Payment and Rating" vertex="1">
+                    <mxGeometry height="30" width="150" x="460" y="170" as="geometry"/>
+                </mxCell>
+                <mxCell id="yIe1rNJEtNqg8u7YunD5-3" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+                    <mxGeometry height="300" width="230" x="420" y="220" as="geometry"/>
+                </mxCell>
+                <mxCell id="yIe1rNJEtNqg8u7YunD5-4" parent="yIe1rNJEtNqg8u7YunD5-3" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Make Payment" vertex="1">
+                    <mxGeometry height="80" width="120" x="55" y="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="yIe1rNJEtNqg8u7YunD5-5" parent="yIe1rNJEtNqg8u7YunD5-3" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Rate Handyman" vertex="1">
+                    <mxGeometry height="80" width="120" x="55" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="yIe1rNJEtNqg8u7YunD5-6" parent="yIe1rNJEtNqg8u7YunD5-3" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Process Commission" vertex="1">
+                    <mxGeometry height="80" width="120" x="55" y="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="yIe1rNJEtNqg8u7YunD5-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Customer" vertex="1">
+                    <mxGeometry height="60" width="30" x="320" y="340" as="geometry"/>
+                </mxCell>
+                <mxCell id="yIe1rNJEtNqg8u7YunD5-8" edge="1" parent="1" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yIe1rNJEtNqg8u7YunD5-4" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="370" y="350" as="sourcePoint"/>
+                        <mxPoint x="420" y="300" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="yIe1rNJEtNqg8u7YunD5-9" edge="1" parent="1" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="yIe1rNJEtNqg8u7YunD5-5" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="370" y="380" as="sourcePoint"/>
+                        <mxPoint x="590" y="390" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

@@ -1,0 +1,46 @@
+<mxfile host="65bd71144e">
+    <diagram id="NghsV-21wq2j_WH29Dzc" name="Page-1">
+        <mxGraphModel dx="687" dy="535" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="kD70oI-0ugdyhKMmKhrt-1" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Diagrama de Casos de Uso: Find a Handyman" vertex="1">
+                    <mxGeometry height="30" width="150" x="260" y="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="kD70oI-0ugdyhKMmKhrt-2" parent="1" style="swimlane;startSize=0;" value="" vertex="1">
+                    <mxGeometry height="300" width="230" x="220" y="260" as="geometry"/>
+                </mxCell>
+                <mxCell id="kD70oI-0ugdyhKMmKhrt-3" parent="kD70oI-0ugdyhKMmKhrt-2" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Search Handyman" vertex="1">
+                    <mxGeometry height="80" width="120" x="55" y="10" as="geometry"/>
+                </mxCell>
+                <mxCell id="kD70oI-0ugdyhKMmKhrt-5" parent="kD70oI-0ugdyhKMmKhrt-2" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="Filter services" vertex="1">
+                    <mxGeometry height="80" width="120" x="55" y="110" as="geometry"/>
+                </mxCell>
+                <mxCell id="kD70oI-0ugdyhKMmKhrt-6" parent="kD70oI-0ugdyhKMmKhrt-2" style="ellipse;whiteSpace=wrap;html=1;shapeInside=1;" value="View profile" vertex="1">
+                    <mxGeometry height="80" width="120" x="55" y="210" as="geometry"/>
+                </mxCell>
+                <mxCell id="kD70oI-0ugdyhKMmKhrt-7" parent="1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" value="Customer" vertex="1">
+                    <mxGeometry height="60" width="30" x="120" y="380" as="geometry"/>
+                </mxCell>
+                <mxCell id="kD70oI-0ugdyhKMmKhrt-13" edge="1" parent="1" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kD70oI-0ugdyhKMmKhrt-3" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="170" y="390" as="sourcePoint"/>
+                        <mxPoint x="220" y="340" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="kD70oI-0ugdyhKMmKhrt-14" edge="1" parent="1" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kD70oI-0ugdyhKMmKhrt-5" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="170" y="420" as="sourcePoint"/>
+                        <mxPoint x="390" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="kD70oI-0ugdyhKMmKhrt-15" edge="1" parent="1" style="endArrow=classic;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" target="kD70oI-0ugdyhKMmKhrt-6" value="">
+                    <mxGeometry height="50" relative="1" width="50" as="geometry">
+                        <mxPoint x="170" y="450" as="sourcePoint"/>
+                        <mxPoint x="390" y="430" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
